@@ -1,155 +1,164 @@
-html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scott Johnson</title>
-    <style>
-        .cv-box {
-            border: 2px solid #4CAF50; /* green border */
-            background-color: #f0f8ff; /* light blue background */
-            padding: 20px;
-            margin: 20px;
-            border-radius: 10px;
-            font-family: Arial, sans-serif;
-        }
-        h3, h4, h2 {
-            color: #2c3e50; /* dark blue text */
-        }
-    </style>
-</head>
-<body>
-    <div class="cv-box">
-        <h3>CV</h3>
-        <p>Mr Scott Johnson</p>
-        <p>147 Long Ley, Harlow, Essex CM20 3NL</p>
-
-        <h3>Education</h3>
-        <ul>
-            <li>1993–1998 Mark Hall High School
-                <ul>
-                    <li>Maths – E</li>
-                    <li>English – D, D</li>
-                    <li>Science – E, E</li>
-                    <li>Physical Education – A</li>
-                </ul>
-            </li>
-        </ul>
-
-        <h4>Hobbies</h4>
-        <ul>
-            <li>Gaming</li>
-            <li>Reading</li>
-        </ul>
-
-        <h2>Skills</h2>
-        <ul>
-            <li>AZ-900</li>
-            <li>ICT at Entry 2</li>
-            <li>BCS Level 2 Certificate in IT User Skills (ECDL Extra) (ITQ) (QCF)</li>
-            <li>OCR 9 Credits at Entry Level in Employability Skills</li>
-        </ul>
-    </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Work History</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scott Johnson – CV & Work History</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 40px;
-      background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+      background: linear-gradient(to right, #f0f8ff, #e8f5e9);
       color: #333;
     }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
     h1 {
       text-align: center;
-      color: #00695c;
+      color: #2c3e50;
       font-size: 2.5em;
-      margin-bottom: 40px;
+      margin-bottom: 10px;
     }
+
+    h2 {
+      color: #00796b;
+      border-bottom: 2px solid #00796b;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+
+    h3, h4 {
+      color: #2c3e50;
+      margin-top: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
     .job {
-      background-color: #0b0a42;
-      border-left: 8px solid #00796b;
-      padding: 20px 25px;
-      margin: 20px auto;
-      max-width: 800px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      background-color: #f9f9f9;
+      border-left: 5px solid #4CAF50;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
     }
-    .job:hover {
-      transform: scale(1.02);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-    }
-    .job h2 {
+
+    .job h3 {
       margin: 0;
-      font-size: 1.4em;
+      font-size: 1.2em;
       color: #004d40;
     }
+
     .job p {
-      margin: 10px 0 0;
+      margin: 8px 0 0;
       font-size: 1em;
       color: #555;
+    }
+
+    .contact {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.1em;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Scott Johnson</h1>
+    <div class="contact">
+      147 Long Ley, Harlow, Essex CM20 3NL
+    </div>
 
-  <h1>Work History</h1>
+    <h2>Education</h2>
+    <ul>
+      <li>1993–1998 – Mark Hall High School
+        <ul>
+          <li>Maths – E</li>
+          <li>English – D, D</li>
+          <li>Science – E, E</li>
+          <li>Physical Education – A</li>
+        </ul>
+      </li>
+    </ul>
 
-  <div class="job">
-    <h2>2021–Present – Clarins</h2>
-    <p>Warehouse duties including cleaning and general work. Trained in FLT, PPT, counterbalance, and fire warden responsibilities.</p>
+    <h2>Skills</h2>
+    <ul>
+      <li>AZ-900</li>
+      <li>ICT at Entry 2</li>
+      <li>BCS Level 2 Certificate in IT User Skills (ECDL Extra)</li>
+      <li>OCR 9 Credits at Entry Level in Employability Skills</li>
+    </ul>
+
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Gaming</li>
+      <li>Reading</li>
+    </ul>
+
+    <h2>Work History</h2>
+
+    <div class="job">
+      <h3>2021–Present – Clarins</h3>
+      <p>Warehouse duties including cleaning and general work. Trained in FLT, PPT, counterbalance, and fire warden responsibilities.</p>
+    </div>
+
+    <div class="job">
+      <h3>2019–2021 – Plus Point</h3>
+      <p>Worked at Westex warehouse doing cleaning and general work. Transitioned to Clarins full-time on 8th March 2021 after company takeover.</p>
+    </div>
+
+    <div class="job">
+      <h3>2017–2019 – Toby Carvery</h3>
+      <p>Handled bar deliveries, cash management, staff support, and bar operations. Ensured smooth running of the bar.</p>
+    </div>
+
+    <div class="job">
+      <h3>2012–2014 – Nando's</h3>
+      <p>Cashier/Chef. Elected as store representative to improve local and national relationships.</p>
+    </div>
+
+    <div class="job">
+      <h3>2011–2012 – Nisa Foods</h3>
+      <p>Picked food items for store distribution.</p>
+    </div>
+
+    <div class="job">
+      <h3>2011 – Amberdale Ltd</h3>
+      <p>Performed heavy lifting and packed bags.</p>
+    </div>
+
+    <div class="job">
+      <h3>2010–2011 – OCL Construction</h3>
+      <p>Worked as a labourer on a housing construction site.</p>
+    </div>
+
+    <div class="job">
+      <h3>2009–2010 – Nando's</h3>
+      <p>Responsible for cooking, customer service, tills, grills, and staff representation.</p>
+    </div>
+
+    <div class="job">
+      <h3>2007–2009 – Wetherspoon (Shift Leader)</h3>
+      <p>Key holder, cash control, pub opening, staff management. Cross-trained in kitchen and bar.</p>
+    </div>
+
+    <div class="job">
+      <h3>1999–2007 – TNT Warehouse</h3>
+      <p>Loaded/unloaded lorries, picked, packed, and labelled shoes.</p>
+    </div>
   </div>
-
-  <div class="job">
-    <h2>2019–2021 – Plus Point</h2>
-    <p>Worked at Westex warehouse doing cleaning and general work. Transitioned to Clarins full-time on 8th March 2021 after company takeover.</p>
-  </div>
-
-  <div class="job">
-    <h2>2017–2019 – Toby Carvery</h2>
-    <p>Handled bar deliveries, cash management, staff support, and bar operations. Ensured smooth running of the bar.</p>
-  </div>
-
-  <div class="job">
-    <h2>2012–2014 – Nando's</h2>
-    <p>Cashier/Chef. Elected as store representative to improve local and national relationships.</p>
-  </div>
-
-  <div class="job">
-    <h2>2011–2012 – Nisa Foods</h2>
-    <p>Picked food items for store distribution.</p>
-  </div>
-
-  <div class="job">
-    <h2>2011 – Amberdale Ltd</h2>
-    <p>Performed heavy lifting and packed bags.</p>
-  </div>
-
-  <div class="job">
-    <h2>2010–2011 – OCL Construction</h2>
-    <p>Worked as a labourer on a housing construction site.</p>
-  </div>
-
-  <div class="job">
-    <h2>2009–2010 – Nando's</h2>
-    <p>Responsible for cooking, customer service, tills, grills, and staff representation.</p>
-  </div>
-
-  <div class="job">
-    <h2>2007–2009 – Wetherspoon (Shift Leader)</h2>
-    <p>Key holder, cash control, pub opening, staff management. Cross-trained in kitchen and bar.</p>
-  </div>
-
-  <div class="job">
-    <h2>1999–2007 – TNT Warehouse</h2>
-    <p>Loaded/unloaded lorries, picked, packed, and labelled shoes.</p>
-  </div>
-
 </body>
 </html>
+.html.txt
+.html.txt (5 KB)
+5 KB
